@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales and Performance Reports</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <main>
+        <!-- Sales Summary Report -->
+        <section class="report" id="sales-summary">
+            <h2>Sales Summary Report</h2>
+            <canvas id="sales-summary-chart"></canvas>
+            <ul>
+                <li>Gross Sales: $50,000</li>
+                <li>Net Sales: $45,000</li>
+                <li>TAX: $5,000</li>
+                <li>Voids: $500</li>
+                <li>Refunds: $1,000</li>
+                <li>Discounts: $2,500</li>
+                <li>ATV: $150</li>
+                <li>Orders: 300</li>
+            </ul>
+        </section>
+        
+        <!-- Product Performance Report -->
+        <section class="report" id="product-performance">
+            <h2>Top 20 Product Performance</h2>
+            <canvas id="product-performance-chart"></canvas>
+            <ul>
+                <li>Product 1: 150 units</li>
+                <li>Product 2: 130 units</li>
+                <li>Product 3: 120 units</li>
+            </ul>
+        </section>
+        
+        <!-- Sales by Store Report -->
+        <section class="report" id="sales-by-store">
+            <h2>Sales by Store</h2>
+            <canvas id="sales-by-store-chart"></canvas>
+            <ul>
+                <li>Store 1: $20,000</li>
+                <li>Store 2: $15,000</li>
+                <li>Store 3: $10,000</li>
+            </ul>
+        </section>
+        
+        <!-- Employee Performance Report -->
+        <section class="report" id="employee-performance">
+            <h2>Top 5 Employee Performance</h2>
+            <ul>
+                <li>Employee 1: 200 sales</li>
+                <li>Employee 2: 180 sales</li>
+                <li>Employee 3: 150 sales</li>
+                <li>Employee 4: 120 sales</li>
+                <li>Employee 5: 100 sales</li>
+            </ul>
+        </section>
+        
+        <!-- Hourly Sales Report -->
+        <section class="report" id="hourly-sales">
+            <h2>Hourly Sales</h2>
+            <canvas id="hourly-sales-chart"></canvas>
+        </section>
+        
+        <!-- Sales/Profit Report -->
+        <section class="report" id="sales-profit">
+            <h2>Sales and Profit Report</h2>
+            <canvas id="sales-profit-chart"></canvas>
+            <ul>
+                <li>Sales: $50,000</li>
+                <li>Costs: $30,000</li>
+                <li>Margin: $20,000</li>
+            </ul>
+        </section>
+        
+        <!-- Returns and Refunds Report -->
+        <section class="report" id="returns-refunds">
+            <h2>Returns and Refunds Report</h2>
+            <ul>
+                <li>Returns: 50 items</li>
+                <li>Refunds: $2,500</li>
+            </ul>
+        </section>
+        
+        <!-- Discounts and Promotions Report -->
+        <section class="report" id="discounts-promotions">
+            <h2>Discounts and Promotions Report</h2>
+            <ul>
+                <li>Promotion 1: 100 items</li>
+                <li>Promotion 2: 80 items</li>
+                <li>Promotion 3: 60 items</li>
+            </ul>
+        </section>
+        
+        <!-- Sales by Payment Method Report -->
+        <section class="report" id="sales-by-payment">
+            <h2>Sales by Payment Method</h2>
+            <canvas id="sales-by-payment-chart"></canvas>
+            <ul>
+                <li>Cash: $20,000</li>
+                <li>Credit: $25,000</li>
+                <li>Other: $5,000</li>
+            </ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
